@@ -10,7 +10,7 @@ const Notes = ({ id, note, date, DeleteNote }) => {
 
     return (
         <div className='col-span-4 md:col-span-2 lg:col-span-1'>
-            <div className='bg-yellow-200 rounded-lg p-2 min-h-[280px] flex flex-col justify-between whitespace-pre-wrap'>
+            <div className='bg-yellow-200 rounded-lg p-2 min-h-[280px] flex flex-col justify-between whitespace-pre-wrap break-all'>
                 <h1>{note}</h1>
                 <div className='flex justify-between'>
                     <small>{date}</small>
